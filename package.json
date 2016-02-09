@@ -1,0 +1,32 @@
+{
+  "name": "mnyamor.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnyamor/mnyamor.github.io.git"
+  },
+  "keywords": [
+    "mary",
+    "nyamor",
+    "mary",
+    "nyamor"
+  ],
+  "author": "mnyamor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnyamor/mnyamor.github.io/issues"
+  },
+  "homepage": "https://github.com/mnyamor/mnyamor.github.io#readme",
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
