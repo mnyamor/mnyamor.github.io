@@ -3,21 +3,21 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 	  concat: {
 	    js: {
-	      src: ['www/js/functions.js', 'js/views/home.js'],
+	      src: ['js/functions.js', 'js/views/home.js'],
 	      dest: 'build/js/scripts.js',
 	    },
 	    css: {
-	      src: ['www/css/main.css', 'css/theme.css'],
+	      src: ['css/main.css', 'css/theme.css'],
 	      dest: 'build/css/styles.css',
 	    },
 	  },
 	  watch: {
 		  js: {
-		    files: ['www/js/**/*.js'],
+		    files: ['js/**/*.js'],
 		    tasks: ['concat:js'],
 		  },
 		  css: {
-		    files: ['www/css/**/*.css'],
+		    files: ['css/**/*.css'],
 		    tasks: ['concat:css'],
 		  },
 		},
