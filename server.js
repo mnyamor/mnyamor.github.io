@@ -19,3 +19,12 @@ var onRequest = function (request, response) {
 
 http.createServer(onRequest).listen(8080);
 console.log('listening to port 8080...');
+
+/*var connect = require('connect');
+var http = require('http');
+
+var app = connect();
+app.use('')
+
+http.createServer(app).listen(8080);
+console.log('server is running...');*/
