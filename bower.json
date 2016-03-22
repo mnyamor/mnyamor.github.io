@@ -1,0 +1,26 @@
+{
+  "name": "mnyamor.github.io",
+  "description": "portfolio",
+  "main": "index.html",
+  "authors": [
+    "mnyamor"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "mary",
+    "nyamor",
+    "mary",
+    "nyamor"
+  ],
+  "homepage": "https://github.com/mnyamor/mnyamor.github.io",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ]
+}

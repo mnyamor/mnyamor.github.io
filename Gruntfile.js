@@ -3,11 +3,11 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 	  concat: {
 	    js: {
-	      src: ['js/functions.js', 'js/views/home.js'],
+	      src: ['js/app.js', 'js/app.js'],
 	      dest: 'build/js/scripts.js',
 	    },
 	    css: {
-	      src: ['css/main.css', 'css/theme.css'],
+	      src: ['css/main.css', 'css/main.css'],
 	      dest: 'build/css/styles.css',
 	    },
 	  },
